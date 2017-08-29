@@ -1,0 +1,13 @@
+{
+  "connect_to_server":
+	 {
+	   "hostname":"hostlog",
+     "port":22,
+     "username":"log_tester"
+	   "password":"password_log"
+	 },
+  "logs":
+  	{
+  	 "log_path":"/var/log/eHealth/access.log"
+  	}
+ }

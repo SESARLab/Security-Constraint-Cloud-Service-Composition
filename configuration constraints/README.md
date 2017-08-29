@@ -11,8 +11,3 @@
 $ pip install -r requirements.txt
 $ cat test.json|python entrypoint.py
 ```
-
-### Output Example
-
-
-```output:```

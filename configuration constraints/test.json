@@ -1,0 +1,15 @@
+{
+  "openstack credential":
+	 {
+	   "OS_AUTH_URL":"http://openstack.local:5000/v3",
+     "OS_USERNAME":"log_tester",
+     "OS_PASSWORD":"password_openstack",
+     "OS_PROJECT_ID":"13r124124hfhft231231321",
+	   "OS_USER_DOMAIN_NAME":"Default"
+	 },
+  "volumes":
+  	{
+  	 "encrypted type":"LUKS",
+     "list":"volume1,volume_patience,volume_vm1,storage_3"
+  	}
+ }

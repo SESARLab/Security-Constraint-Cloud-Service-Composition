@@ -1,0 +1,12 @@
+{
+  "login":
+	{
+	"user":"user1",
+	"password":"password1"
+	},
+  "responsive":
+  	{
+  	"treshold":500,
+  	
+  	}
+ }
