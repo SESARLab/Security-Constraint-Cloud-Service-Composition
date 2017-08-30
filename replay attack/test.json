@@ -1,0 +1,7 @@
+{
+  "config":
+	 {
+	   "host":"aes.ehealth.local",
+     "port":"443",
+	 }
+}
