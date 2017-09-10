@@ -13,7 +13,7 @@ class ReplayAttack(Driver):
     def nmapRun (self, inputs):
       scan_nmap(self.testinstances["config"]["host"],self.testinstances["config"]["port"])
     def tcpdump(self,inputs):
-      eth=self.testinstances["dump"]["interface"]
+      eth='eth1'
       if input == True:
         return True
       else:
@@ -38,8 +38,8 @@ class ReplayAttack(Driver):
     def rollback (self, inputs):
       return False
     def appendAtomics(self):
-        self.appendAtomic(self.nmapRun, self.rollback)
-        self.appendAtomic(self.tcpdump, self.rollback)
-        self.appendAtomic(self.tcpreplay, self.rollback)
+        self.appendAtomic(self.nmapRun,self.rollback)
+        self.appendAtomic(self.tcpdump,self.rollback)
+        self.appendAtomic(self.tcpreplay,self.rollback)
 
 
